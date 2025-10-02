@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #4F46E5;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+button {
+  background: #4F46E5;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button.secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+.preview {
+  border: 1px solid #d1d5db;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
