@@ -75,7 +75,7 @@ function App() {
             <button onClick={() => setStep(2)} className="secondary">Edit</button>
             
             {/* Stripe Checkout */}
-            <button onClick={() => window.location.href = "https://buy.stripe.com/test_1234567890"}>
+            <button onClick={() => window.location.href = "https://buy.stripe.com/test_fZubJ1cGQ8Lzg9x6lFbo400"}>
               Pay & Publish Campaign ($49)
             </button>
 
